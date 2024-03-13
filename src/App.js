@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button } from './Button';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         >
           Learn React
         </a>
+        <Button text="Иди" style={{color:'green'}}/>
+        <Button text="Замри" style={{color:'yellow'}}/>
+        <Button text="Стой" style={{color:'red'}}/>
       </header>
     </div>
   );
